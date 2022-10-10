@@ -1,0 +1,14 @@
+/* Default -smartphone- */
+header > img {
+    border-radius: 60%;
+    width: 500px;
+}
+/* Default Tablet */
+@media (min-width : 576px) {
+    header > img
+}
+  
+/* Default PC */
+@media (min-width : 992px) {
+    header > img
+}
