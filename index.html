@@ -1,55 +1,149 @@
-<!DOCTYPE html>
-<html>
-    <head>
-        <title>LATIHAN HTML FELITIA</title>
-        <style> 
-        body {
-            background-image: url(hi4.jpg);
-            background-repeat: no-repeat;
-            background-size: cover
-        }
-            img {
-                width: 200px;
-                border-radius: 50%;
-            }
-        </style>
-    </head>
-    <body>
-        <a href="#">Biodata</a>
-        <a href="portofolio.html">Portofolio</a>
+<!doctype html>
+<html lang="en">
 
-        <center><h1> Felitia Theona Geofani Mantik</h1> </center>
-        <center> <img src="felitia.jpg" width="200"  > </center>
-        <div class="text-start">
-            <head>
-                <style>
-                    mark {
-                        background-color :snow;
-                        color:black;
-                    }
-                </style>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="./assets/css/style1.css"
+    <!---->
+    <!--font-->
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@600&display=swap" rel="stylesheet">
+</head>
+
+  <body>
+    <nav class="navbar navbar-expand-lg bg-light shadow-sm">
+        <div class="container-fluid">
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav mx-auto ">
+              <li class="nav-item">
+                <a class="nav-link fw-bold text-dark" aria-current="page" href="#">About Me</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link fw-bold text-dark" aria-current="page" href="#">Skill</a>
+              </li><li class="nav-item">
+                <a class="nav-link fw-bold text-dark" aria-current="page" href="#">Contact Me</a>
+              </li>
+            </ul>
+          </div>
         </div>
-        <center> <h2> Tentang Saya</h2> </center> 
-        <center> <p> Hallo semua, perkenalkan nama saya Felitia Theona Geofani Mantik biasa dipanggil Tia. </p></center>
-        <center> <p> Saya berkuliah di Universitas Negeri Manado, mengambil jurusan Teknik Informatika dan saat ini saya sedang duduk di semester 5</p></center>
-        <center> <p> Saya lahir di Jakarta, 05 Desember 2002 dan saat ini tinggal di Desa Noongan, Kec. Langowan Barat, Kab. Minahasa Sulawesi Utara.</p></center>
-        <center> <h2> Keahlian Saya</h2></center>
-        <center> <ol>
-            <p> <li> Design Marketing</li> </p>
-            <p> <li> Kerjasama Team</li></p>
-            <p> <li> Komunikasi </li></p>
-        </ol></center>
-        <center> <h2> Pendidikan </h2></center>
-        <center> <ul> 
-            <p> <li> 2008 - 2014 SD Katolik St. Vincencius Noongan </li></p>
-            <p> <li> 2014 - 2017 SMP Negeri 1 Langowan </li></p>
-            <p> <li> 2017 - 2020 SMA Negeri 1 Langowan </li></p>
-            <p> <li> 2020 - Sekarang Universitas Negeri Manado </li></p>
-        </ul></center>
-        <center> <h2> Kontak Saya </h2></center>
-        <center> <p><a href="https://www.facebook.com/felitiamantik05">Facebook</a></p></center>
-        <center> <a href=https://www.linkedin.com/in/felitia-mantik-996688219>Linkedin</a></p></center>
-        <center> <p><a href=https://www.instagram.com/ftgmntk_/>Instagram</a></p></center>
-        <center> <a href=portofolio.html>Portofolio</a></center>
-    </body>
-</html>
+      </nav>
+
+    <!--hero  -->
+    <div id="hero" class="container d-flex flex-column d-flex d-flex align-items-center justify-content-center mb-5">
+        <img src="./assets/Pic/felitia.jpg" class="image-hero rounded-circle" alt="">
+        <h1 class="title"> Felitia T.G Mantik</h1>
+        <p class="subtitle">Universitas Negeri Manado</p>
+        <i class="bi bi-arrow-down"></i>
+    </div>
+
+    <!-- about me -->
+    <div class="containe fluidr mb-5">
+        <h2 class="text-center mb-3">About Me</h2>
+        <div class="row">
+            <div class="col-5">
+                <img src="./assets/Pic/1666797294137.jpg" class="shadow rounder w-75" alt="">
+            </div>
+            <div class="col-5">
+                <p class="text-about text-secondary Ih-lg"> Nama saya Felitia Theona Geofani Mantik biasa di panggil Tia
+                  saya berkuliah di Univesitas Negeri Manado dan mengambil jurusan Teknik Informatika dan saat ini saya sedang duduk di semester 5.
+                  <p class="text-about text-secondary Ih-lg">Saya lahir di jakarta, 05 Desember 2002 dan saat ini saya tinggal di Desa Noongan Tiga 
+                    tepatnya di Perumahan Noongan Permai</p>
+                  <p class="text-about text-secondary Ih-lg">Di semester ini saya mengikuti KAMPUS MERDEKA program STUDI INDEPENDENT yang 
+                    diselenggarakan oleh SEAL yaitu Digital Transformation in The Goverment and Public Sector.</p>
+                </p>
+            </div>
+        </div>
+    </div>
+
+      <!-- my skill -->
+      <div class="container mb-5">
+        <h2 class= "text-center mb-3">My Skill</h2>
+        <div class="row">
+            <div class="col-4">
+              <div class="card">
+                <img src="./assets/Pic/Teamwork.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">TEAMWORK</h5>
+                  <p class="card-text">Teamwork adalah proses kerja secara kolaboratif dengan sekelompok orang untuk mencapai suatu tujuan. </p>
+                  <a href="#" class="btn btn-primary w-100">Go somewhere</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-4">
+              <div class="card">
+                <img src="./assets/Pic/dgt.webp" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">DIGITAL MARKETING</h5>
+                  <p class="card-text">Seorang Digital Marketing dapat mengelola dan memantau campaign mana yang secara konsisten dapat menarik perhatian audiens.</p>
+                  <a href="#" class="btn btn-primary w-100">Go somewhere</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-4">
+              <div class="card">
+                <img src="./assets/Pic/Comunication.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">COMMUNICATION</h5>
+                  <p class="card-text">Keahlian dalam berkomunikasi dapat menjaga hubungan antar individu sehingga pekerjaan akan lebih mudah terselesaikan.</p>
+                  <a href="#" class="btn btn-primary w-100">Go somewhere</a>
+                </div>
+              </div>
+            </div>
+              </div>
+            </div>
+        </div>
+      </div>
+
+      <!--contact me-->
+      <div class="container mb-5">
+        <h2 class="text-center mb-3">Contact Me</h2>
+        <form class="col-6 mx-auto">
+          <div class="mb-3">
+            <label for="exampleFormControlInput1" class="form-label">Name</label>
+            <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="name">
+          </div>
+          <div class="mb-3">
+            <label for="exampleFormControlInput1" class="form-label">Email address</label>
+            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+          </div>
+          <div class="mb-3">
+            <label for="exampleFormControlTextarea1" class="form-label">Example textarea</label>
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+          </div>
+
+          <button type="button" class="btn btn-primary w-100">Submite</button>
+        </form>
+      </div>
+    
+      <center> <p><a href="https://www.facebook.com/felitiamantik05">Facebook</a></p></center>
+      <center> <a href=https://www.linkedin.com/in/felitia-mantik-996688219>Linkedin</a></p></center>
+      <center> <p><a href=https://www.instagram.com/ftgmntk_/>Instagram</a></p></center>
+
+      <!--footer-->
+      <div class="container">
+        <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+          <div class="col-md-4 d-flex align-items-center">
+            <a href="/" class="mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1">
+              <svg class="bi" width="30" height="24"><use xlink:href="#bootstrap"/></svg>
+            </a>
+            <span class="mb-3 mb-md-0 text-muted">&copy; 2022 Company, Inc</span>
+          </div>
+      
+          <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+            <li class="ms-3"><a class="text-muted" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#twitter"/></svg></a></li>
+            <li class="ms-3"><a class="text-muted" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#instagram"/></svg></a></li>
+            <li class="ms-3"><a class="text-muted" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#facebook"/></svg></a></li>
+          </ul>
+        </footer>
+      </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+  </body>
+</html
